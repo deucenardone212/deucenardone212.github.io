@@ -1,0 +1,10 @@
+{
+  "case": "B_topSealTri_L3_U15_A3",
+  "replay_folder": "Replay_topSealTri_L3_U15_A3",
+  "iterations": 1200,
+  "maximum_absolute_history_difference": {
+    "CL": 0.0,
+    "CD": 0.0
+  },
+  "passed": true
+}
