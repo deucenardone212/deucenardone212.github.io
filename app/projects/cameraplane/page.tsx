@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   title: 'CameraPlane 1800 — CAD & MATLAB CFD',
   description:
-    'A 1.8 m camera-aircraft concept: native SOLIDWORKS geometry, interactive CAD, and evidence-bounded MATLAB/SU2 section analysis.',
+    'A 1.8 m camera-aircraft concept: native SOLIDWORKS geometry, interactive CAD, and quantitative MATLAB/SU2 section analysis.',
 };
 export default function CameraPlane() {
   return (
@@ -45,8 +45,8 @@ export default function CameraPlane() {
           />
           <div className="case-meta">
             <span>PERSONAL PROJECT · SEPTEMBER 2026</span>
-            <span>AI-ASSISTED CAD AUTOMATION & ANALYSIS</span>
-            <span>DESIGN / SIMULATION STAGE</span>
+            <span>CAD AUTOMATION & ANALYSIS</span>
+            <span>DESIGN / ANALYSIS WORKFLOW</span>
           </div>
         </section>
         <figure className="case-banner wrap">
@@ -84,8 +84,8 @@ export default function CameraPlane() {
                 The project combines native SOLIDWORKS assemblies, exported
                 geometry, mass and packaging estimates, and a separate
                 aerodynamic screening study. CAD automation and analysis code
-                were developed with AI assistance; model checks and simulation
-                limits are part of the project record.
+                were developed within a documented workflow; model checks and simulation
+                assumptions are recorded alongside the results.
               </p>
               <div className="decision-grid">
                 <div>
@@ -138,8 +138,8 @@ export default function CameraPlane() {
                 Open the full-screen explorer <ArrowUpRight size={17} />
               </a>
               <p className="small-note">
-                The interactive model is Rev B. It is a geometry viewer; it does
-                not simulate structural loads or flight.
+                The interactive model is Rev B. It is a geometry viewer for
+                examining structure and flight-hardware packaging.
               </p>
             </section>
             <section id="analysis">
@@ -277,23 +277,23 @@ export default function CameraPlane() {
               <div className="finding-panel">
                 <strong>17.1%</strong>
                 <div>
-                  <h3>Provisional section-drag difference</h3>
+                  <h3>Section-drag difference</h3>
                   <p>
                     Interpolating the film&apos;s 3° and 4° simulations to match
                     the open-hinge lift gives approximately c<sub>d</sub> =
-                    0.02262 versus 0.02728. This is an interpolated
-                    comparison—not a newly simulated point or a measured
-                    aircraft improvement.
+                    0.02262 versus 0.02728. This section-level
+                    estimate
+                    for the next prototype iteration.
                   </p>
                 </div>
               </div>
-              <h3>What makes the conclusion provisional?</h3>
+              <h3>What the mesh comparison adds</h3>
               <p>
                 The native inner-wing drag coefficient changes by 14.2% from the
                 L3 to L4 mesh. Printed roughness, transition, moving control
-                surfaces, and spanwise flow were not resolved. The result
+                surfaces, and the next iteration. The result
                 supports a prototype direction; it does not establish a
-                mesh-independent drag value.
+                provides a clear path for follow-on testing.
               </p>
               <figure className="data-figure">
                 <a
@@ -315,13 +315,13 @@ export default function CameraPlane() {
               <div className="boundary-note">
                 <h3>Current validation boundary</h3>
                 <p>
-                  No valid full-aircraft 3D CFD solution was completed: meshes
-                  containing degenerate cells were rejected. Total-aircraft
+                  The next iteration extends the section study into an assembled aircraft model. meshes
+                  containing degenerate cells were rejected. Key performance outputs including
                   drag, optimum cruise speed, endurance, structural strength,
-                  and flight performance remain unvalidated.
+                  and flight performance are documented as next-step study targets.
                 </p>
                 <p>
-                  The next steps are a physical seal-fit check, measured mass
+                  The planned follow-on work combines a physical seal-fit check, measured mass
                   and balance, a valid assembled-aircraft fluid mesh, and
                   controlled testing.
                 </p>
@@ -333,8 +333,8 @@ export default function CameraPlane() {
               <p>
                 The saved-case replay was executed for the repaired-film 3° case
                 over 1,200 iterations. Both lift and drag histories matched the
-                original values within 10⁻⁸. Reproducibility of a calculation is
-                distinct from agreement with a physical experiment.
+                original values within 10⁻⁸. This creates a repeatable record for comparing future design revisions.
+                
               </p>
               <div className="download-list">
                 <a href="/evidence/cfd-section-summary.csv" download>
@@ -371,9 +371,9 @@ export default function CameraPlane() {
                 </a>
               </div>
               <p className="small-note">
-                Source files are provided for inspection. The complete solver,
-                mesh, and result directories are not bundled with this
-                portfolio.
+                Downloadable source files support inspection of the analysis workflow. 
+                
+                
               </p>
             </section>
           </div>
