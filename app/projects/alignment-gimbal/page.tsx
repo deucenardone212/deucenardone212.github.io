@@ -130,7 +130,7 @@ export default function Gimbal() {
               <p>
                 The documented nominal motion range is yaw −90° to +90° and
                 pitch −20° to +45°. Stops and hardware are represented
-                geometrically; providing a clear basis for checks of retention, contact loads, and
+                geometrically, providing a clear basis for checks of retention, contact loads, and
                 tolerance behavior.
               </p>
             </section>
@@ -162,7 +162,7 @@ export default function Gimbal() {
               <div className="boundary-note">
                 <h3>Next iteration</h3>
                 <p>
-                  The next iteration moves from CAD into fabrication. Physical fit, stiffness,
+                  The next iteration moves from CAD into fabrication. The fabrication study focuses on fit, stiffness,
                   creep, strength, payload capacity, angular repeatability, and
                   print performance. The PDF captures the assembly
                   definition and supports that build sequence.
