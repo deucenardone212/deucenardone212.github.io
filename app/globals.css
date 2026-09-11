@@ -667,7 +667,7 @@ footer a:hover {
     max-width: 600px;
   }
   .section-heading h2 br {
-    display: none;
+    display: block;
   }
   .about-grid h2 {
     margin: 0;
