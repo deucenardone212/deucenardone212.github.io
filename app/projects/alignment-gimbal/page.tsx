@@ -47,7 +47,7 @@ export default function Gimbal() {
             height="1100"
           />
           <figcaption>
-            Native SOLIDWORKS assembly. A manually adjusted optical fixture with
+            Native SOLIDWORKS assembly. A manually adjusted optical fixture
             built around accessible hardware.
           </figcaption>
         </figure>
