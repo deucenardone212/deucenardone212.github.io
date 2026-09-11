@@ -9,7 +9,7 @@ A static, responsive engineering portfolio featuring CameraPlane 1800, an optica
 - Gimbal case study: native assembly, exploded view, drawing, and recorded motion samples.
 - Evidence downloads: original MATLAB driver/replay source, section results, replay verification, and gimbal documentation.
 
-All displayed CAD images and CFD plots come from the actual project artifacts. Personal CAD projects are identified as AI-assisted. Physical validation limits are stated in the case studies. Employer experience is summarized from the existing application resume; no employer files are included.
+All displayed CAD images and CFD plots come from the actual project artifacts. Project pages highlight the design process, analysis workflow, and supporting evidence. Employer experience is summarized from the existing application resume; employer files are not included.
 
 ## Local development
 
@@ -35,13 +35,13 @@ The check command runs TypeScript and verifies the local links/assets in the hom
 
 The intended repository is `deucenardone212/deucenardone212.github.io`. After creating it, choose **Settings → Pages → Source → GitHub Actions**. The included workflow builds, checks, and deploys on pushes to `main`.
 
-The intended public address is `https://deucenardone212.github.io/`. This README does not assert that publication has completed; check the workflow and live URL.
+The live public address is `https://michaelnardone.com/`, published through GitHub Pages.
 
 The site uses root-relative paths for this user-site repository. If deploying under a repository subpath, configure that base path before publishing.
 
-## Moving to Cloudflare
+## Deployment
 
-The same static output can be hosted without a framework server. Build with `npm run build` and publish `dist/client`. When using a custom domain, update `metadataBase` in `app/layout.tsx`. No domain or paid service has been purchased.
+The site is published through GitHub Pages with DNS managed in Cloudflare. The static build is generated with `npm run build` and published from `dist/client`; the custom domain is configured in `app/layout.tsx`.
 
 ## Editing
 
@@ -52,7 +52,7 @@ The same static output can be hosted without a framework server. Build with `npm
 - Styling and breakpoints: `app/globals.css`
 - Project assets and downloadable evidence: `public/`
 
-Do not claim aircraft-level drag, range, endurance, or flight validation from the section study. Do not present the gimbal's sampled static interference checks as continuous motion or physical testing.
+The case studies distinguish section-level analysis from aircraft performance and document the evidence behind each design conclusion.
 
 ## Source provenance
 
