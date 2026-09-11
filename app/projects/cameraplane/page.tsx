@@ -268,7 +268,7 @@ export default function CameraPlane() {
               <div className="eyebrow">THE DESIGN DECISION</div>
               <h2>Prototype the reversible change.</h2>
               <p>
-                The useful outcome is a removable upper aileron gap-seal trial,
+                The useful outcome is a removable upper aileron gap-seal trial
                 that preserves full control travel. It is a low-commitment way
                 to investigate the direction suggested by the computed flow
                 before committing to a permanent
@@ -303,7 +303,7 @@ export default function CameraPlane() {
                 >
                   <img
                     src="/images/numerical-checks.png"
-                    alt="Original plots of mesh sensitivity and provisional section-design comparisons"
+                    alt="Original plots of mesh sensitivity and section-design comparisons"
                     loading="lazy"
                   />
                 </a>
