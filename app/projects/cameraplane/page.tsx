@@ -269,10 +269,10 @@ export default function CameraPlane() {
               <h2>Prototype the reversible change.</h2>
               <p>
                 The useful outcome is a removable upper aileron gap-seal trial,
-                with full control travel preserved. It is a low-commitment way
+                that preserves full control travel. It is a low-commitment way
                 to investigate the direction suggested by the computed flow
-                without locking the aileron shut or immediately redesigning the
-                trailing edge.
+                before committing to a permanent
+                trailing-edge change.
               </p>
               <div className="finding-panel">
                 <strong>17.1%</strong>
@@ -281,8 +281,8 @@ export default function CameraPlane() {
                   <p>
                     Interpolating the film&apos;s 3° and 4° simulations to match
                     the open-hinge lift gives approximately c<sub>d</sub> =
-                    0.02262 versus 0.02728. This section-level
-                    estimate
+                    0.02262 versus 0.02728. This section-level estimate
+                    
                     for the next prototype iteration.
                   </p>
                 </div>
@@ -290,10 +290,10 @@ export default function CameraPlane() {
               <h3>What the mesh comparison adds</h3>
               <p>
                 The native inner-wing drag coefficient changes by 14.2% from the
-                L3 to L4 mesh. Printed roughness, transition, moving control
-                surfaces, and the next iteration. The result
-                supports a prototype direction; it does not establish a
-                provides a clear path for follow-on testing.
+                L3 to L4 mesh. The mesh comparison highlights how resolution informs
+                the next iteration.
+                The study establishes a focused design variable for the next iteration.
+                
               </p>
               <figure className="data-figure">
                 <a
@@ -313,10 +313,10 @@ export default function CameraPlane() {
                 </figcaption>
               </figure>
               <div className="boundary-note">
-                <h3>Current validation boundary</h3>
+                <h3>Next iteration</h3>
                 <p>
-                  The next iteration extends the section study into an assembled aircraft model. meshes
-                  containing degenerate cells were rejected. Key performance outputs including
+                  The next iteration extends the section study into an assembled aircraft model.
+                   Key performance outputs including
                   drag, optimum cruise speed, endurance, structural strength,
                   and flight performance are documented as next-step study targets.
                 </p>
