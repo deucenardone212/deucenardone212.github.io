@@ -56,6 +56,6 @@ The case studies distinguish section-level analysis from aircraft performance an
 
 ## Source provenance
 
-See `CONTENT_SOURCES.md`. Native CAD files, complete solver cases, private chat histories, local filesystem paths, and resume contact details beyond the professional email/LinkedIn are intentionally excluded from this repository.
+See `CONTENT_SOURCES.md`. The repository includes selected project artifacts and professional links; private and proprietary materials remain outside the repository.
 
 The lint command checks authored app/scripts code and permits standard image tags for a static host. Generated Shadcn components are retained unchanged.
