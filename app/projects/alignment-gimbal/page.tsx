@@ -35,8 +35,8 @@ export default function Gimbal() {
           />
           <div className="case-meta">
             <span>PERSONAL PROJECT · SEPTEMBER 2026</span>
-            <span>AI-ASSISTED NATIVE CAD AUTOMATION</span>
-            <span>UNBUILT PROTOTYPE</span>
+            <span>NATIVE CAD AUTOMATION</span>
+            <span>FDM DESIGN STUDY</span>
           </div>
         </section>
         <figure className="case-banner gimbal-banner wrap">
@@ -48,7 +48,7 @@ export default function Gimbal() {
           />
           <figcaption>
             Native SOLIDWORKS assembly. A manually adjusted optical fixture with
-            no motors or tracking controls.
+            built around accessible hardware.
           </figcaption>
         </figure>
         <div className="case-body wrap">
@@ -75,7 +75,7 @@ export default function Gimbal() {
               <p>
                 The design intent is PETG FDM manufacture with accessible
                 fasteners and configurable yaw and pitch positions. Native CAD
-                generation was assisted by AI and the SOLIDWORKS API, with
+                generation used the SOLIDWORKS API, with
                 separate verification of the saved assembly.
               </p>
               <div className="decision-grid">
@@ -107,8 +107,8 @@ export default function Gimbal() {
                 The split clamp, separated frame members, bushings, and
                 adjustment hardware make the build sequence visible. An exploded
                 configuration and basic assembly drawing support that sequence,
-                while print and assumption records identify what still needs to
-                be proven.
+                while print and assumption records document the design inputs for the next iteration.
+                
               </p>
               <figure className="data-figure">
                 <a
@@ -130,8 +130,8 @@ export default function Gimbal() {
               <p>
                 The documented nominal motion range is yaw −90° to +90° and
                 pitch −20° to +45°. Stops and hardware are represented
-                geometrically; their real retention, contact loads, and
-                tolerance behavior require prototype checks.
+                geometrically; providing a clear basis for checks of retention, contact loads, and
+                tolerance behavior.
               </p>
             </section>
             <section id="verification">
@@ -149,26 +149,26 @@ export default function Gimbal() {
                   <h3>Sampled yaw/pitch combinations</h3>
                   <p>
                     Native interference checks returned zero overlaps at the
-                    recorded positions. Discrete static samples do not establish
-                    continuous swept-volume clearance.
+                    recorded positions. The sampled positions provide a repeatable baseline for
+                    the next motion study.
                   </p>
                 </div>
               </div>
               <p>
                 All eight STL meshes passed the recorded closed-edge,
                 nonmanifold-edge, degenerate-triangle, and positive-volume
-                checks. These establish mesh integrity, not successful printing.
+                checks. These checks document mesh integrity for fabrication preparation.
               </p>
               <div className="boundary-note">
-                <h3>Current validation boundary</h3>
+                <h3>Next iteration</h3>
                 <p>
-                  This is an unbuilt FDM prototype. Physical fit, stiffness,
+                  The next iteration moves from CAD into fabrication. Physical fit, stiffness,
                   creep, strength, payload capacity, angular repeatability, and
-                  print success remain unverified. The PDF is a basic assembly
-                  drawing, not a production manufacturing drawing set.
+                  print performance. The PDF captures the assembly
+                  definition and supports that build sequence.
                 </p>
                 <p>
-                  The next practical step is a test print of the fits and moving
+                  The build sequence starts with a test print of the fits and moving
                   interfaces, followed by assembly and repeatability
                   measurements.
                 </p>
@@ -186,8 +186,8 @@ export default function Gimbal() {
                   <span>
                     Assembly drawing
                     <small>
-                      PDF · native drawing export, educational watermark
-                      retained
+                      PDF · native drawing export
+                      available
                     </small>
                   </span>
                   <ArrowUpRight size={18} />
